@@ -1,0 +1,322 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       body {
+            background: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container for centering content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Navigation Bar Styles */
+        nav {
+            background: #000;
+            padding: 10px 0;
+        }
+        .logo{
+          text-align: start;
+        }
+
+        .nav-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+            cursor: pointer;
+        }
+
+        .logo img {
+            height: 25px;
+            width: auto;
+        }
+       
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+          
+          
+        }
+
+        .nav-links a {
+          
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            position: relative;
+            padding: 5px 10px;
+            font-weight: 600;
+        }
+
+        
+        .nav-links a:hover {
+            color: #ff00ff;
+          
+        }
+
+        .connect-button {
+            background: #ff00ff;
+            color:#fff;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 10px;
+            text-transform:none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+
+        .connect-button:hover {
+            background: #cc00cc;
+        }
+
+        body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.image-box img {
+  width: 600px;
+  border-radius: 15px;
+  border: 2px solid #ff00ff;
+}
+.content-box {
+  max-width: 500px;
+  text-align: left;
+}
+
+.content-box h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.content-box h1 span {
+  color: #ff66cc;
+}
+
+.content-box p {
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.download-btn {
+  background:black;
+  color:  #ff00ff;
+  border: 2px solid #ff00ff;
+  padding: 10px 60px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+  
+}
+
+.download-btn:hover {
+  background: #cc00cc;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+.bloktopia-section {
+  display: flex;
+  align-items: center;
+justify-content: center;
+  gap: 40px;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+}
+
+.blok-image img {
+  width: 350px;
+  max-width: 100%;
+}
+
+.blok-text {
+  max-width: 400px;
+  text-align: center;
+}
+
+
+.blok-text h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+
+.blok-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+   
+    align-items: center;
+}
+
+
+
+.earn {
+    background-image: url(assets/earn_tile.jpg); /* Replace with actual image URL or path */
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.play {
+    background-image:url(assets/play_tile.jpg); /* Replace with actual image URL or path */
+    width: 600px;
+    height: 400px;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+.nfts {
+    background-image:url(assets/nft_tile.jpg); /* Replace with actual image URL or path */
+    width: 600px;
+    height: 400px;
+    justify-content: flex-end;
+    border-radius: 20px;
+  }
+.dao {
+    background-image:url(assets/dao_tile.jpg); /* Replace with actual image URL or path */
+    width: 600px;
+    height: 400px;
+    justify-content: flex-end;
+    border-radius: 20px;
+  }
+
+.content {
+ 
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #ff00ff;
+    color: #ff00ff;
+    background-color: #000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #ff00ff;
+    color: white;
+}
+footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #333;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff00ff; /* Pink hover effect to match the theme */
+}
+
+.footer-text p {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #ccc;
+}
+
+.footer-text nav {
+    margin: 15px 0;
+}
+
+.footer-text nav a {
+    color: #ff00ff; /* Pink color for links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.footer-text nav a:hover {
+    color: #fff; /* White on hover */
+}
+
+.disclaimer {
+    font-size: 12px;
+    color: #999;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.footer-text a {
+    color: #ff00ff;
+    text-decoration: none;
+    
+}
+
+.footer-text a:hover {
+    color: #fff;
+}
+
